@@ -232,18 +232,26 @@ td p {
 #about {
 	border: 1px solid red;
 }
-#about h2 {
+#about-inner, #about1 {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+#about #about-inner h2 {
 	text-transform: uppercase;
 }
-#about p {
+#about #about-inner p {
 	padding-top: 20px;
 	font-size: 15pt;
 	text-transform: uppercase;
 }
-#about-inner {
-	width: 1170px;
-	margin: 0 auto;
-	padding: 50px 0;
+#about #about1 img {
+	float:right;
+	width: 200px;
+	height: 200px;
+}
+#about #about2 {
+	float: left;
 }
 #contact {
 	border: 1px solid red;
